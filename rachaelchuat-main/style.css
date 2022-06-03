@@ -1,0 +1,156 @@
+
+Within styles right at the top add this code
+/*   
+Theme Name: Fremantle Arts Concert
+Theme URI: file:///Users/rachaelchuat/Desktop/rachaelchuat/index.html
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: twentyfifteen
+Version: 1
+*/ 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+ul{
+list-style: none;
+
+}
+
+
+.active{
+
+color: grey;
+text-decoration: underline;
+font-weight: bold;
+}
+
+body , html{
+
+overflow-x:hidden;
+
+}
+
+
+
+/* Navbar */
+.navbar {
+
+position: absolute;
+top:0;
+left: 0;
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 20px;
+color:#00708F;
+
+
+}
+
+.nav-links{
+display: inline-flex;
+align-items: center;
+padding: 0px 110px;
+
+}
+
+.nav-links li{
+margin: 0 80px; 
+}
+
+header {
+
+width: 230vh;
+height:100vh;
+background-image: url('images/header.jpg');
+background-position:bottom;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.header-content{
+margin-bottom:150px ;
+color: #A8E4E8;
+text-align: center;
+
+}
+
+.header-content h1{
+
+font-size:7vmin;
+
+}
+
+/* Whats on Events content*/
+section{
+    width: 100%;
+    margin:0px ;
+    height: 600px;
+    background-color: #E0F9FF;
+    display: flex;
+    align-items: center;
+   justify-content: center ;
+   padding: 80px 150px;
+
+}
+
+/* Artist */
+section{
+
+    width: 100%;
+    margin:0px ;
+    height: 600px;
+    background-color: #A2DCE5;
+    display: flex;
+    align-items: center;
+   justify-content: bottom ;
+   padding: 80px 60px ;
+
+}
+.footer{
+
+    width: 200%;
+    height:200px;
+    padding: 20px 80px;
+    margin:0;
+    background: #CEE9F0;
+    text-align:center;
+    
+ }
+
+.footer p{
+
+color: #0B0B0C;
+font-weight: bold;
+padding:8%;
+
+}
+
+
+
+}
+
+
+
+/* Mobile device */
+
+@media only screen and (max-width:850px){
+
+.navbar {
+padding: 0;
+
+}
+
+}
